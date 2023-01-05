@@ -1,10 +1,49 @@
 .App {
   text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(238, 243, 255);
+
+}
+
+.factContainer {
+  max-width: 35rem;
+  height: auto;
+  margin: auto;
+  font-size: larger;
+  font-weight: 400;
+  padding: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-color: rgb(229, 239, 255);
+  border-radius: .6rem;
+
+}
+
+
+
+.factBtn {
+  background-color: aqua;
+  border: none;
+  border-radius: .6rem;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.factBtn:hover {
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+.heading {
+  max-width: 45rem;
+  margin: auto;
+  background-color: rgb(213, 203, 249);
+  border-radius: .6rem;
+  padding: 1rem 2rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,6 +71,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
